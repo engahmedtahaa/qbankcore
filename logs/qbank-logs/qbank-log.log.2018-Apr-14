@@ -1,0 +1,97 @@
+Apr 14, 2018 00:00:10,014 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:00:10,023 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Error During Opening Transaction
+Apr 14, 2018 00:01:42,806 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:02:42,570 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Error During Opening Transaction
+Apr 14, 2018 00:05:00,607 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:05:00,609 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Error During Opening Transaction
+Apr 14, 2018 00:06:00,977 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:06:00,993 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Error During Opening Transaction
+Apr 14, 2018 00:06:35,526 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:07:11,714 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Error During Opening Transaction
+Apr 14, 2018 00:11:53,713 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:11:53,717 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:12:38,806 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:13:00,994 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:14:41,319 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:14:41,322 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:16:47,799 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: Transaction is currently active
+Apr 14, 2018 00:18:37,598 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:18:52,407 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:22:57,907 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 00:30:34,300 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'CLOS_ID' in 'field list'
+Error Code: 1054
+Call: SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)
+	bind => [1 parameter bound]
+Query: ReadAllQuery(name="chapterEntityList" referenceClass=ChapterEntity sql="SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)")
+Apr 14, 2018 00:35:15,748 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'CLOS_ID' in 'field list'
+Error Code: 1054
+Call: SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)
+	bind => [1 parameter bound]
+Query: ReadAllQuery(name="chapterEntityList" referenceClass=ChapterEntity sql="SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)")
+Apr 14, 2018 14:45:20,948 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'CLOS_ID' in 'field list'
+Error Code: 1054
+Call: SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)
+	bind => [1 parameter bound]
+Query: ReadAllQuery(name="chapterEntityList" referenceClass=ChapterEntity sql="SELECT ID, CREATE_TIME, NAME, UPDATE_TIME, CLOS_ID, COURSES_ID FROM chapters WHERE (CLOS_ID = ?)")
+Apr 14, 2018 16:12:27,561 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=1 ])
+Apr 14, 2018 16:12:27,564 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 16:12:59,038 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=null ])
+Apr 14, 2018 16:12:59,042 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 16:13:42,504 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=null ])
+Apr 14, 2018 16:14:08,918 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 16:14:51,581 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=null ])
+Apr 14, 2018 16:15:26,164 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) java.lang.IllegalStateException: 
+Exception Description: No transaction is currently active
+Apr 14, 2018 16:15:35,036 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=null ])
+Apr 14, 2018 16:15:35,038 ERROR [com.myfcit.qbank.core.logs.QbankLogger] sun.reflect.NativeMethodAccessorImpl invoke0 (main) com.myfcit.qbank.core.exceptions.QbankException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'COURSES_ID' cannot be null
+Error Code: 1048
+Call: INSERT INTO clos (CREATE_TIME, NAME, PERCENTAGE, UPDATE_TIME, COURSES_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [5 parameters bound]
+Query: InsertObjectQuery(com.myfcit.qbank.core.entities.CloEntity[ id=null ])

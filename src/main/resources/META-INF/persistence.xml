@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="defaultPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.myfcit.qbank.core.entities.PermissionEntity</class>
+    <class>com.myfcit.qbank.core.entities.RoleEntity</class>
+    <class>com.myfcit.qbank.core.entities.CourseEntity</class>
+    <class>com.myfcit.qbank.core.entities.QuestionTypeEntity</class>
+    <class>com.myfcit.qbank.core.entities.AnswerEntity</class>
+    <class>com.myfcit.qbank.core.entities.ExamEntity</class>
+    <class>com.myfcit.qbank.core.entities.ExamSectionEntity</class>
+    <class>com.myfcit.qbank.core.entities.HvcloEntity</class>
+    <class>com.myfcit.qbank.core.entities.QuestionEntity</class>
+    <class>com.myfcit.qbank.core.entities.ChapterEntity</class>
+    <class>com.myfcit.qbank.core.entities.CloEntity</class>
+    <class>com.myfcit.qbank.core.entities.UserEntity</class>
+    <class>com.myfcit.qbank.core.entities.ApplicationContentEntity</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:33060/qbank?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+      <property name="hibernate.id.new_generator_mappings" value="true"/>
+      <property name="hibernate.classloading.use_current_tccl_as_parent" value="false"/>
+      <property name="eclipselink.cache.shared.default" value="false"/>
+      <!--<property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />-->
+    </properties>
+  </persistence-unit>
+</persistence>
